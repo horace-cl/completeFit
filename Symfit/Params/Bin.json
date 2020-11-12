@@ -1,0 +1,49 @@
+{
+    "Signal":{
+        "yield":1356,
+        "mass":{
+            "2Gaussian+CrystalBall":{
+                "muCB":5.27,
+                "alphaCB":5.2,
+                "sigmaCB":0.04,
+                "nCB":3,
+                "muGauss":5.27,
+                "sigmaGauss1": 0.10,
+                "sigmaGauss2":0.03,
+                "fracCB" : 0.05,
+                "fracGauss1":0.25,
+                "fracGauss2":0.25
+            }
+        },
+        "angle":{
+            "AFB":0, "FH":0.2,
+            "coefsEff":[ 0.1, -0.2, 0.3, -0.4]
+        }
+    },
+    "Background":{
+        "yield":1000,
+        "mass":{
+            "Exponential+Gauss":{
+                "mu":5,
+                "sigma":0.5,
+                "lambda_":-2,
+                "fraction_exp":0.3
+            }
+        },
+        "angle":{
+            "2SideBands":{
+                "Left":{
+                    "coefs":[1,0.1,0.1],   "fraction_Cheby":0.5,
+                    "mu":0.75,           "sigma":0.1
+                },
+                "Right":{
+                    "coefs":[1, -0.2,-0.2],  "fraction_Cheby":0.5,
+                    "mu":0.75,            "sigma":0.1
+                },
+                "fraction_Left":0.5
+            }
+        }
+        
+    },
+    "limits": [5, 5.7]
+}
