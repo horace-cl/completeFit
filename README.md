@@ -3,6 +3,7 @@ Implementation of the complete fit PDF(theta, mass; params)
 
 PDF = Y_s S(\theta)*efficiency(\theta) S(\mass) + Y_b B(\theta) B(\mass)
 
+<br>
 Where 
     Y_s and Y_b            -   are signal and background yields respectivelly
     B(\theta) and B(\mass) -   are the shapes of the bakground on the mass and angular variables
