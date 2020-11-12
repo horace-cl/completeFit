@@ -16,4 +16,9 @@ Where
 <br>
     efficiency(\theta)     -   is the efficiency on the angular variable
     
- 
+ <br><br>
+
+The main script is completeSymfit.py it implements the complete fit using pdf's defined on the othe scripts.
+
+FitSym.py is WIP, it is intended to poduce several fits on one single script, using the output as input for next iterations. 
+Argparse is being used here
